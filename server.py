@@ -1,7 +1,7 @@
 from fastmcp import FastMCP, Context
 from typing import Dict, Any
 
-mcp = FastMCP(name="DemoMcpTool")
+mcp = FastMCP(name="SQLMcpTool")
 
 
 @mcp.tool()
