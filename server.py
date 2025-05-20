@@ -4,7 +4,7 @@ from typing import Dict, Any
 mcp = FastMCP(name="SQLMcpTool")
 
 
-@mcp.tool()
+@mcp.tool(name="Analyze_SQL_Query_Security", description="Analyzes a SQL query for potential security issues.")
 async def analyze_query_security(query: str, ctx: Context) -> Dict[str, Any]:
     """
     Analyzes a SQL query for potential security issues.

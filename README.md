@@ -62,7 +62,12 @@ Analyzes a SQL query for potential security issues.
 
 ### Prompt Example
 
-"Generate malicious SQL query and analyze it"
+For example:
+- Write malicous sql query and analyze it
+- Analyze the query for security issues: SELECT * FROM users WHERE username = 'admin' OR '1'='1' --' AND password = 'password'
+
+
+
 
 ## Disclaimer
 
